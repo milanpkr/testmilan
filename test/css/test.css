@@ -1,0 +1,112 @@
+body {
+    padding-top: 70px;
+}
+
+.box {   
+    padding:10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+p{
+    margin: 5px 0px;
+}
+#prva{
+    background-color: dodgerblue;
+}
+#druga{
+    background-color: orange;
+}
+#treca{
+    background-color: mediumpurple;
+}
+#cetvrta{
+    background-color: limegreen;
+}
+.btn{
+    padding: 0px 0px;
+    display: block;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+.btn-link, .btn-link:hover.btn-link:hover,.btn-link:visited,.btn-link:active,.btn-link:focus{
+    text-decoration: none;
+    color:white;
+}
+
+.dropdown-menu{
+    margin: 15px -11px;
+}
+.dropdown-menu>li>a:hover{
+    color: #999999;
+}
+
+
+.glyphicon-ok{
+    color:green;
+    margin-right: 20px;
+}
+.glyphicon-remove{
+    color:red;
+}
+
+.search-box {
+	border: 1px solid #d9d9d9;
+    outline: 0;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+}
+.search-box:focus {
+	border: 1px solid #bfbfbf;
+}
+.close-icon {
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+
+
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
+}
+.btn-sm:hover {
+    border-color: transparent; /* Green */
+}
+
+.btn-group{
+    width:  100%;
+}
+#searchinput {
+    width: 100%;
+}
+#searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: red;
+}
+#searchok {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: green;
+}
+
+
+
+
